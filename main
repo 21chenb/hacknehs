@@ -1,0 +1,46 @@
+import processing.core.PApplet;
+import processing.core.PImage;
+
+public class HackNEHS extends PApplet {
+    public static void main (String[] args) {
+        PApplet.main("UsingProcessing");
+    }
+    
+    public void draw() {
+        size(800, 600);
+    }
+    
+    
+    public void setup() {
+    
+    }
+    
+    public void keyReleased() {
+        
+    }
+    public void keyPressed() {
+        
+    }
+    
+    public class Player {
+    
+    }
+    public class DecryptButton {
+        String text;
+        void click() {
+        
+        }
+        public DecryptButton(String text) {
+        
+        }
+    }
+    public class EncryptButton{
+        String text;
+        void click() {
+            // encrypt function here;
+        }
+        public EncryptButton(String text) {
+            this.text = text;
+        }
+    }
+}
